@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">FujiApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">FujiApp</string>
+    <string name="nav_header_subtitle">Anwendungen der MI - WS 2021/2022</string>
+    <string name="nav_header_desc">FujiApp</string>
+
+    <string name="action_settings">Einstellungen</string>
+    <string name="action_logout">Abmelden</string>
+
+    <string name="fuji_logo">FujiApp Logo</string>
+
+    <string name="menu_home">Hauptmenü</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_training">Trainingsdurchlauf</string>
+    <string name="menu_results">Ergebnisse</string>
+    <string name="menu_user">Benutzer</string>
+
+    <string name="training_x">x-Koordinate</string>
+    <string name="training_y">y-Koordinate</string>
+    <string name="training_z">z-Koordinate</string>
+    <string name="training_pulse">Puls</string>
+    <string name="training_respiration">Atmung</string>
+    <string name="training_position">Position</string>
+    <string name="training_btn_Stop">Stopp</string>
+    <string name="training_btn_Start">Start</string>
+    <string name="training_btn_calibrate">Kalibrieren</string>
+
+    <string name="task">Versuchen Sie die unten angegebenen Koordinaten zu erreichen und danach zu halten.</string>
+	<string name="task_current">Aktueller Wert</string>
+    <string name="task_goal">Zielwert</string>
+	<string name="task_feedback_backUp">Die Rückenposition befindet sich im Hohlkreuz. Bitte begradigen Sie ihn.</string>
+    <string name="task_feedback_backDown">Die Rückenposition befindet sich im Katzenbuckel. Bitte begradigen Sie ihn.</string>
+    <string name="task_feedback_back">Die Rückenposition ist gerade.</string>
+    <string name="task_feedback_task1">Herausforderung </string>
+    <string name="task_feedback_task2"> von </string>
+    <string name="task_feedback_task3"> geschafft!</string>
+    <string name="task_feedback_taskAll">Es wurden alle Herausforderungen geschafft!</string>
+
+    <string name="results_date">Datum</string>
+    <string name="results_time">Uhrzeit</string>
+    <string name="results_pulse_av">Durchschnitt Puls</string>
+    <string name="results_pulse_max">Max Puls</string>
+    <string name="results_pulse_min">Min Puls</string>
+    <string name="results_respiration_av">Durchschnitt Atmung</string>
+    <string name="results_respiration_max">Max Atmung</string>
+    <string name="results_respiration_min">Min Atmung</string>
+    <string name="results_resultBackposition">Fehler Rückenposition</string>
+    <string name="results_resultTime">Benötigte Zeit</string>
+    <string name="results_success">Erfolgreich?</string>
+    <string name="results_export">Export der Ergebnisse</string>
+	<string name="yes">Ja</string>
+    <string name="no">Nein</string>
+
+
+    <string name="login_username">Benutzername</string>
+    <string name="login_password">Passwort</string>
+    <string name="login_faild">Login fehlgeschlagen</string>
+    <string name="login">Anmelden</string>
+    <string name="login_registration">Jetzt registrieren</string>
+
+    <string name="user_username">Benutzername</string>
+    <string name="user_password">Passwort</string>
+    <string name="user_name">Name</string>
+    <string name="user_firstname">Vorname</string>
+    <string name="user_sex">Geschlecht</string>
+    <string name="user_sexMale">Männlich</string>
+    <string name="user_sexFemale">Weiblich</string>
+    <string name="user_sexDivers">Divers</string>
+    <string name="user_birthday">Geburtstag</string>
+    <string name="user_weight">Gewicht</string>
+    <string name="user_height">Größe</string>
+    <string name="user_weight_kg">kg</string>
+    <string name="user_height_cm">cm</string>
+    <string name="user_save">Speichern</string>
+    <string name="user_registration">Registrierung abschließen</string>
+
+    <string name="registraion_UsernameExist">Benutzername schon vorhanden</string>
+
+    <string name="ipAdress">IP-Adresse</string>
+
+    <string name="close">Abbrechen</string>
+    <string name="data_security">Hiermit willige ich ein, dass meine personenbezogenen Daten im Rahmen der Nutzung der App verarbeitet werden. Darunter fallen neben den oben stehende Angaben, noch Puls- und Atmungsdaten, die optional während Traningssessions erfasst werden können.</string>
+</resources>

@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">FujiApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">FujiApp</string>
+    <string name="nav_header_subtitle">Anwendungen der MI - WS 2021/2022</string>
+    <string name="nav_header_desc">FujiApp</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_logout">Logout</string>
+
+    <string name="fuji_logo">FujiApp Logo</string>
+
+    <string name="menu_home">Menu</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_training">Training</string>
+    <string name="menu_results">Results</string>
+    <string name="menu_user">User</string>
+
+    <string name="training_x">x-coordinate</string>
+    <string name="training_y">y-coordinate</string>
+    <string name="training_z">z-coordinate</string>
+    <string name="training_pulse">Pulse</string>
+    <string name="training_respiration">Respiration</string>
+    <string name="training_position">Position</string>
+    <string name="training_btn_Stop">Stop</string>
+    <string name="training_btn_Start">Start</string>
+    <string name="training_btn_calibrate">Calibrate</string>
+
+    <string name="task">Try to reach the coordinates given below and keep them.</string>
+    <string name="task_current">Current Value</string>
+    <string name="task_goal">Goal Value</string>
+    <string name="task_feedback_backUp">The back position is in the hollow back. Please straighten it.</string>
+    <string name="task_feedback_backDown">The back position is arched. Please straighten it.</string>
+    <string name="task_feedback_back">The back position is straight.</string>
+    <string name="task_feedback_task1">Completed challenge </string>
+    <string name="task_feedback_task2"> of </string>
+    <string name="task_feedback_task3"> !</string>
+    <string name="task_feedback_taskAll">All challenges were accomplished!</string>
+
+    <string name="results_date">Date</string>
+    <string name="results_time">Time</string>
+    <string name="results_pulse_av">Average Pulse</string>
+    <string name="results_pulse_max">Max Pulse</string>
+    <string name="results_pulse_min">Min Pulse</string>
+    <string name="results_respiration_av">Average Respiration</string>
+    <string name="results_respiration_max">Max Respiration</string>
+    <string name="results_respiration_min">Min Respiration</string>
+    <string name="results_resultBackposition">Result Backposition</string>
+    <string name="results_resultTime">Needed Time</string>
+    <string name="results_success">Success?</string>
+    <string name="results_export">Export of the results</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+
+    <string name="login_username">Username</string>
+    <string name="login_password">Password</string>
+    <string name="login_faild">Login failed</string>
+    <string name="login">Login</string>
+    <string name="login_registration">Register now</string>
+
+    <string name="user_username">Username</string>
+    <string name="user_password">Password</string>
+    <string name="user_name">Name</string>
+    <string name="user_firstname">First Name</string>
+    <string name="user_sex">Sex</string>
+    <string name="user_sexMale">Male</string>
+    <string name="user_sexFemale">Female</string>
+    <string name="user_sexDivers">Diverse</string>
+    <string name="user_birthday">Birthdate</string>
+    <string name="user_weight">Weight</string>
+    <string name="user_height">Height</string>
+    <string name="user_weight_kg">kg</string>
+    <string name="user_height_cm">cm</string>
+    <string name="user_save">Save</string>
+    <string name="user_registration">Complete registration</string>
+
+    <string name="registraion_UsernameExist">Username already exists</string>
+
+    <string name="ipAdress">IP Address</string>
+
+    <string name="close">Close</string>
+    <string name="data_security">Ich willige hiermit ein, dass meine personenbezogenen Daten im Rahmen der Nutzung der App verarbeitet werden. Darunter fallen neben den oben stehende Angaben, noch Puls- und Atmungsdaten, die optional während Traningssessions erfasst werden können.</string>
+</resources>

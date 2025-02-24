@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.results.ResultsFragment">
+
+    <TableLayout
+        android:id="@+id/tableHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:isScrollContainer="true"
+        android:scrollbars="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:stretchColumns="*">
+
+        <TableRow android:layout_width="match_parent">
+
+            <TextView
+                android:id="@+id/tvDate"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="5dip"
+                android:text="@string/results_date" />
+
+            <TextView
+                android:id="@+id/tvTime"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="5dip"
+                android:text="@string/results_time" />
+
+            <TextView
+                android:id="@+id/tvAvPulse"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="5dip"
+                android:text="@string/results_pulse_av" />
+
+            <TextView
+                android:id="@+id/tvMaxPulse"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="5dip"
+                android:text="@string/results_pulse_max" />
+
+            <TextView
+                android:id="@+id/tvMinPulse"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="5dip"
+                android:text="@string/results_pulse_min" />
+
+            <TextView
+                android:id="@+id/tvAvResp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="5dip"
+                android:text="@string/results_respiration_av" />
+
+            <TextView
+                android:id="@+id/tvMaxResp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="5dip"
+                android:text="@string/results_respiration_max" />
+
+            <TextView
+                android:id="@+id/tvMinResp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="5dip"
+                android:text="@string/results_respiration_min" />
+
+            <TextView
+                android:id="@+id/tvAvResultBack"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="5dip"
+                android:text="@string/results_resultBackposition" />
+
+            <TextView
+                android:id="@+id/tvAvResultTime"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="5dip"
+                android:text="@string/results_resultTime" />
+
+            <TextView
+                android:id="@+id/tvAvSuccess"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="5dip"
+                android:text="@string/results_success" />
+        </TableRow>
+
+    </TableLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:scrollbars="vertical"
+        android:fadeScrollbars="false"
+        app:layout_constraintBottom_toTopOf="@+id/btnExport"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tableHeader">
+
+        <TableLayout
+            android:id="@+id/table"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:isScrollContainer="true"
+            android:scrollbars="vertical"
+            android:stretchColumns="*"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/tvDate2"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:padding="5dip"
+                    android:text="@string/results_date" />
+
+                <TextView
+                    android:id="@+id/tvTime2"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:padding="5dip"
+                    android:text="@string/results_time" />
+
+                <TextView
+                    android:id="@+id/tvAvPulse2"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:padding="5dip"
+                    android:text="@string/results_pulse_av" />
+
+                <TextView
+                    android:id="@+id/tvMaxPulse2"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:padding="5dip"
+                    android:text="@string/results_pulse_max" />
+
+                <TextView
+                    android:id="@+id/tvMinPulse2"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:padding="5dip"
+                    android:text="@string/results_pulse_min" />
+
+                <TextView
+                    android:id="@+id/tvAvResp2"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:padding="5dip"
+                    android:text="@string/results_respiration_av" />
+
+                <TextView
+                    android:id="@+id/tvMaxResp2"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:padding="5dip"
+                    android:text="@string/results_respiration_max" />
+
+                <TextView
+                    android:id="@+id/tvMinResp2"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:padding="5dip"
+                    android:text="@string/results_respiration_min" />
+
+                <TextView
+                    android:id="@+id/tvAvResultBack2"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:padding="5dip"
+                    android:text="@string/results_resultBackposition" />
+
+                <TextView
+                    android:id="@+id/tvAvResultTime2"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:padding="5dip"
+                    android:text="@string/results_resultTime" />
+
+                <TextView
+                    android:id="@+id/tvAvSuccess2"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:padding="5dip"
+                    android:text="@string/results_success" />
+            </TableRow>
+
+        </TableLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnExport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/results_export"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
